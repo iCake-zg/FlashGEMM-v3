@@ -27,7 +27,12 @@ Implement a **general FP16/BF16 GEMM + Softmax fusion operator** on **NVIDIA GPU
 
     
 - **Day3** 精度基线：ONNXRuntime CUDA EP 跑 FP32 作为 golden。
-    
+
+    - day3 
+        - golden_baseline.py
+        - 对比onnxruntime和pytorch底层的计算误差
+        - results/golden_baseline_results.json 结果
+        
 - **Day4** Roofline 分析：Nsight Compute → 计算算术强度、带宽上限。
     
 - **Day5** 需求冻结：输出《FlashGEMM-V3 SPEC》markdown。
