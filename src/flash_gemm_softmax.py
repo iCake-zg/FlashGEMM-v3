@@ -1,13 +1,5 @@
 
 
-
-
-
-
-
-
-
-
 import torch
 from typing import Optional
 import torch.nn.functional as F
@@ -86,8 +78,6 @@ def fused_gemm_softmax(
 
     return output
 
-
-
 def create_casual_mask(
         M:int, 
         N:int, 
@@ -113,7 +103,32 @@ def create_casual_mask(
 
     return mask.float()
 
-
+def benchmark_shapes_from_models():
+    """
+    Common GEMM+Softmax shapes found in popular models.
+    Based on Day1 analysis of ViT-B/16, Whisper, BERT-Large, DLRM.
+    """
+    return [
+        # ViT-B/16 attention patterns
+        (197, 197, 768),    # Patch tokens self-attention
+        (197, 768, 768),    # Query projection
+        
+        # BERT-Large attention
+        (512, 512, 1024),   # Self-attention
+        (512, 1024, 1024),  # Key/Value projections
+        
+        # Whisper encoder attention
+        (1500, 1500, 512),  # Audio features attention
+        (1500, 512, 512),   # Attention projections
+        
+        # DLRM interaction
+        (8192, 128, 128),   # Embedding interactions
+        (4096, 256, 256),   # Feature cross
+        
+        # Common batch sizes
+        (32, 2048, 1024),   # Batch processing
+        (64, 1024, 512),    # Smaller batch
+    ]
 
 
 

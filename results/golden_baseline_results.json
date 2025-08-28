@@ -1,0 +1,881 @@
+{
+  "timestamp": "2025-08-28T14:44:02.928997",
+  "total_tests": 30,
+  "passed_tests": 18,
+  "providers": [
+    "CUDAExecutionProvider",
+    "CPUExecutionProvider"
+  ],
+  "detailed_results": [
+    {
+      "shape": [
+        197,
+        197,
+        768
+      ],
+      "has_bias": true,
+      "has_mask": false,
+      "onnx_result_shape": [
+        197,
+        197
+      ],
+      "pytorch_result_shape": [
+        197,
+        197
+      ],
+      "comparison": {
+        "max_abs_error": 1.1861324310302734e-05,
+        "max_rel_error": 8.396633347729221e-05,
+        "mean_abs_error": 7.778941046865384e-09,
+        "mean_rel_error": 3.3221388662241225e-07,
+        "tolerance_used": 1e-05,
+        "close_within_tolerance": true
+      },
+      "providers": [
+        "CUDAExecutionProvider",
+        "CPUExecutionProvider"
+      ]
+    },
+    {
+      "shape": [
+        197,
+        197,
+        768
+      ],
+      "has_bias": true,
+      "has_mask": true,
+      "onnx_result_shape": [
+        197,
+        197
+      ],
+      "pytorch_result_shape": [
+        197,
+        197
+      ],
+      "comparison": {
+        "max_abs_error": 9.357929229736328e-06,
+        "max_rel_error": 8.388335118070245e-05,
+        "mean_abs_error": 9.07662212057403e-09,
+        "mean_rel_error": 2.5839628392532177e-07,
+        "tolerance_used": 1e-05,
+        "close_within_tolerance": true
+      },
+      "providers": [
+        "CUDAExecutionProvider",
+        "CPUExecutionProvider"
+      ]
+    },
+    {
+      "shape": [
+        197,
+        197,
+        768
+      ],
+      "has_bias": false,
+      "has_mask": false,
+      "onnx_result_shape": [
+        197,
+        197
+      ],
+      "pytorch_result_shape": [
+        197,
+        197
+      ],
+      "comparison": {
+        "max_abs_error": 1.3172626495361328e-05,
+        "max_rel_error": 7.607838051626459e-05,
+        "mean_abs_error": 1.045730790849575e-08,
+        "mean_rel_error": 3.4830210893233016e-07,
+        "tolerance_used": 1e-05,
+        "close_within_tolerance": true
+      },
+      "providers": [
+        "CUDAExecutionProvider",
+        "CPUExecutionProvider"
+      ]
+    },
+    {
+      "shape": [
+        197,
+        768,
+        768
+      ],
+      "has_bias": true,
+      "has_mask": false,
+      "onnx_result_shape": [
+        197,
+        768
+      ],
+      "pytorch_result_shape": [
+        197,
+        768
+      ],
+      "comparison": {
+        "max_abs_error": 2.002716064453125e-05,
+        "max_rel_error": 0.00015247438568621874,
+        "mean_abs_error": 5.486255005848761e-09,
+        "mean_rel_error": 2.806927170695417e-07,
+        "tolerance_used": 1e-05,
+        "close_within_tolerance": false
+      },
+      "providers": [
+        "CUDAExecutionProvider",
+        "CPUExecutionProvider"
+      ]
+    },
+    {
+      "shape": [
+        197,
+        768,
+        768
+      ],
+      "has_bias": true,
+      "has_mask": true,
+      "onnx_result_shape": [
+        197,
+        768
+      ],
+      "pytorch_result_shape": [
+        197,
+        768
+      ],
+      "comparison": {
+        "max_abs_error": 2.0325183868408203e-05,
+        "max_rel_error": 0.00012208569387439638,
+        "mean_abs_error": 2.8583109212831914e-09,
+        "mean_rel_error": 9.862046113084943e-08,
+        "tolerance_used": 1e-05,
+        "close_within_tolerance": false
+      },
+      "providers": [
+        "CUDAExecutionProvider",
+        "CPUExecutionProvider"
+      ]
+    },
+    {
+      "shape": [
+        197,
+        768,
+        768
+      ],
+      "has_bias": false,
+      "has_mask": false,
+      "onnx_result_shape": [
+        197,
+        768
+      ],
+      "pytorch_result_shape": [
+        197,
+        768
+      ],
+      "comparison": {
+        "max_abs_error": 2.4497509002685547e-05,
+        "max_rel_error": 0.00024220094201155007,
+        "mean_abs_error": 7.192712647707822e-09,
+        "mean_rel_error": 2.7864149387824e-07,
+        "tolerance_used": 1e-05,
+        "close_within_tolerance": false
+      },
+      "providers": [
+        "CUDAExecutionProvider",
+        "CPUExecutionProvider"
+      ]
+    },
+    {
+      "shape": [
+        512,
+        512,
+        1024
+      ],
+      "has_bias": true,
+      "has_mask": false,
+      "onnx_result_shape": [
+        512,
+        512
+      ],
+      "pytorch_result_shape": [
+        512,
+        512
+      ],
+      "comparison": {
+        "max_abs_error": 1.710653305053711e-05,
+        "max_rel_error": 8.951779454946518e-05,
+        "mean_abs_error": 3.2266731508912017e-09,
+        "mean_rel_error": 1.4085865984725388e-07,
+        "tolerance_used": 1e-05,
+        "close_within_tolerance": false
+      },
+      "providers": [
+        "CUDAExecutionProvider",
+        "CPUExecutionProvider"
+      ]
+    },
+    {
+      "shape": [
+        512,
+        512,
+        1024
+      ],
+      "has_bias": true,
+      "has_mask": true,
+      "onnx_result_shape": [
+        512,
+        512
+      ],
+      "pytorch_result_shape": [
+        512,
+        512
+      ],
+      "comparison": {
+        "max_abs_error": 1.138448715209961e-05,
+        "max_rel_error": 8.998425619211048e-05,
+        "mean_abs_error": 2.9556135316965992e-09,
+        "mean_rel_error": 1.1807295408061691e-07,
+        "tolerance_used": 1e-05,
+        "close_within_tolerance": true
+      },
+      "providers": [
+        "CUDAExecutionProvider",
+        "CPUExecutionProvider"
+      ]
+    },
+    {
+      "shape": [
+        512,
+        512,
+        1024
+      ],
+      "has_bias": false,
+      "has_mask": false,
+      "onnx_result_shape": [
+        512,
+        512
+      ],
+      "pytorch_result_shape": [
+        512,
+        512
+      ],
+      "comparison": {
+        "max_abs_error": 1.3232231140136719e-05,
+        "max_rel_error": 7.512547745136544e-05,
+        "mean_abs_error": 3.979748086635482e-09,
+        "mean_rel_error": 1.4551974913956656e-07,
+        "tolerance_used": 1e-05,
+        "close_within_tolerance": false
+      },
+      "providers": [
+        "CUDAExecutionProvider",
+        "CPUExecutionProvider"
+      ]
+    },
+    {
+      "shape": [
+        512,
+        1024,
+        1024
+      ],
+      "has_bias": true,
+      "has_mask": false,
+      "onnx_result_shape": [
+        512,
+        1024
+      ],
+      "pytorch_result_shape": [
+        512,
+        1024
+      ],
+      "comparison": {
+        "max_abs_error": 3.56137752532959e-05,
+        "max_rel_error": 0.0002514075313229114,
+        "mean_abs_error": 4.241814011152201e-09,
+        "mean_rel_error": 2.2217714956696e-07,
+        "tolerance_used": 1e-05,
+        "close_within_tolerance": false
+      },
+      "providers": [
+        "CUDAExecutionProvider",
+        "CPUExecutionProvider"
+      ]
+    },
+    {
+      "shape": [
+        512,
+        1024,
+        1024
+      ],
+      "has_bias": true,
+      "has_mask": true,
+      "onnx_result_shape": [
+        512,
+        1024
+      ],
+      "pytorch_result_shape": [
+        512,
+        1024
+      ],
+      "comparison": {
+        "max_abs_error": 2.771615982055664e-05,
+        "max_rel_error": 0.0001973472099052742,
+        "mean_abs_error": 3.4831955098013623e-09,
+        "mean_rel_error": 1.3943437693342275e-07,
+        "tolerance_used": 1e-05,
+        "close_within_tolerance": false
+      },
+      "providers": [
+        "CUDAExecutionProvider",
+        "CPUExecutionProvider"
+      ]
+    },
+    {
+      "shape": [
+        512,
+        1024,
+        1024
+      ],
+      "has_bias": false,
+      "has_mask": false,
+      "onnx_result_shape": [
+        512,
+        1024
+      ],
+      "pytorch_result_shape": [
+        512,
+        1024
+      ],
+      "comparison": {
+        "max_abs_error": 3.337860107421875e-05,
+        "max_rel_error": 0.00024017359828576446,
+        "mean_abs_error": 4.2660306398545345e-09,
+        "mean_rel_error": 2.1788645199194434e-07,
+        "tolerance_used": 1e-05,
+        "close_within_tolerance": false
+      },
+      "providers": [
+        "CUDAExecutionProvider",
+        "CPUExecutionProvider"
+      ]
+    },
+    {
+      "shape": [
+        1500,
+        1500,
+        512
+      ],
+      "has_bias": true,
+      "has_mask": false,
+      "onnx_result_shape": [
+        1500,
+        1500
+      ],
+      "pytorch_result_shape": [
+        1500,
+        1500
+      ],
+      "comparison": {
+        "max_abs_error": 1.3232231140136719e-05,
+        "max_rel_error": 7.466346141882241e-05,
+        "mean_abs_error": 1.2660287262988845e-09,
+        "mean_rel_error": 9.334303285868373e-08,
+        "tolerance_used": 1e-05,
+        "close_within_tolerance": true
+      },
+      "providers": [
+        "CUDAExecutionProvider",
+        "CPUExecutionProvider"
+      ]
+    },
+    {
+      "shape": [
+        1500,
+        1500,
+        512
+      ],
+      "has_bias": true,
+      "has_mask": true,
+      "onnx_result_shape": [
+        1500,
+        1500
+      ],
+      "pytorch_result_shape": [
+        1500,
+        1500
+      ],
+      "comparison": {
+        "max_abs_error": 1.189112663269043e-05,
+        "max_rel_error": 7.160485984059051e-05,
+        "mean_abs_error": 1.136317151484434e-09,
+        "mean_rel_error": 6.954877562748152e-08,
+        "tolerance_used": 1e-05,
+        "close_within_tolerance": true
+      },
+      "providers": [
+        "CUDAExecutionProvider",
+        "CPUExecutionProvider"
+      ]
+    },
+    {
+      "shape": [
+        1500,
+        1500,
+        512
+      ],
+      "has_bias": false,
+      "has_mask": false,
+      "onnx_result_shape": [
+        1500,
+        1500
+      ],
+      "pytorch_result_shape": [
+        1500,
+        1500
+      ],
+      "comparison": {
+        "max_abs_error": 1.3113021850585938e-05,
+        "max_rel_error": 6.939874583622441e-05,
+        "mean_abs_error": 1.3448484548206352e-09,
+        "mean_rel_error": 9.098207698343685e-08,
+        "tolerance_used": 1e-05,
+        "close_within_tolerance": true
+      },
+      "providers": [
+        "CUDAExecutionProvider",
+        "CPUExecutionProvider"
+      ]
+    },
+    {
+      "shape": [
+        1500,
+        512,
+        512
+      ],
+      "has_bias": true,
+      "has_mask": false,
+      "onnx_result_shape": [
+        1500,
+        512
+      ],
+      "pytorch_result_shape": [
+        1500,
+        512
+      ],
+      "comparison": {
+        "max_abs_error": 1.4573335647583008e-05,
+        "max_rel_error": 7.545296102762222e-05,
+        "mean_abs_error": 3.4567899653836776e-09,
+        "mean_rel_error": 1.835175993392113e-07,
+        "tolerance_used": 1e-05,
+        "close_within_tolerance": false
+      },
+      "providers": [
+        "CUDAExecutionProvider",
+        "CPUExecutionProvider"
+      ]
+    },
+    {
+      "shape": [
+        1500,
+        512,
+        512
+      ],
+      "has_bias": true,
+      "has_mask": true,
+      "onnx_result_shape": [
+        1500,
+        512
+      ],
+      "pytorch_result_shape": [
+        1500,
+        512
+      ],
+      "comparison": {
+        "max_abs_error": 1.385807991027832e-05,
+        "max_rel_error": 6.82367681292817e-05,
+        "mean_abs_error": 3.1675051470614335e-09,
+        "mean_rel_error": 1.698687412954314e-07,
+        "tolerance_used": 1e-05,
+        "close_within_tolerance": true
+      },
+      "providers": [
+        "CUDAExecutionProvider",
+        "CPUExecutionProvider"
+      ]
+    },
+    {
+      "shape": [
+        1500,
+        512,
+        512
+      ],
+      "has_bias": false,
+      "has_mask": false,
+      "onnx_result_shape": [
+        1500,
+        512
+      ],
+      "pytorch_result_shape": [
+        1500,
+        512
+      ],
+      "comparison": {
+        "max_abs_error": 1.0102987289428711e-05,
+        "max_rel_error": 7.089478458510712e-05,
+        "mean_abs_error": 3.1609779238550573e-09,
+        "mean_rel_error": 1.8599244810957316e-07,
+        "tolerance_used": 1e-05,
+        "close_within_tolerance": true
+      },
+      "providers": [
+        "CUDAExecutionProvider",
+        "CPUExecutionProvider"
+      ]
+    },
+    {
+      "shape": [
+        8192,
+        128,
+        128
+      ],
+      "has_bias": true,
+      "has_mask": false,
+      "onnx_result_shape": [
+        8192,
+        128
+      ],
+      "pytorch_result_shape": [
+        8192,
+        128
+      ],
+      "comparison": {
+        "max_abs_error": 2.384185791015625e-07,
+        "max_rel_error": 3.932913443804864e-07,
+        "mean_abs_error": 3.511733126515537e-10,
+        "mean_rel_error": 8.98524898929054e-09,
+        "tolerance_used": 1e-05,
+        "close_within_tolerance": true
+      },
+      "providers": [
+        "CUDAExecutionProvider",
+        "CPUExecutionProvider"
+      ]
+    },
+    {
+      "shape": [
+        8192,
+        128,
+        128
+      ],
+      "has_bias": true,
+      "has_mask": true,
+      "onnx_result_shape": [
+        8192,
+        128
+      ],
+      "pytorch_result_shape": [
+        8192,
+        128
+      ],
+      "comparison": {
+        "max_abs_error": 2.384185791015625e-07,
+        "max_rel_error": 4.175560945895995e-07,
+        "mean_abs_error": 3.49597517601552e-10,
+        "mean_rel_error": 9.094087261019013e-09,
+        "tolerance_used": 1e-05,
+        "close_within_tolerance": true
+      },
+      "providers": [
+        "CUDAExecutionProvider",
+        "CPUExecutionProvider"
+      ]
+    },
+    {
+      "shape": [
+        8192,
+        128,
+        128
+      ],
+      "has_bias": false,
+      "has_mask": false,
+      "onnx_result_shape": [
+        8192,
+        128
+      ],
+      "pytorch_result_shape": [
+        8192,
+        128
+      ],
+      "comparison": {
+        "max_abs_error": 2.384185791015625e-07,
+        "max_rel_error": 4.383353200410056e-07,
+        "mean_abs_error": 3.411786408946682e-10,
+        "mean_rel_error": 9.029568204255156e-09,
+        "tolerance_used": 1e-05,
+        "close_within_tolerance": true
+      },
+      "providers": [
+        "CUDAExecutionProvider",
+        "CPUExecutionProvider"
+      ]
+    },
+    {
+      "shape": [
+        4096,
+        256,
+        256
+      ],
+      "has_bias": true,
+      "has_mask": false,
+      "onnx_result_shape": [
+        4096,
+        256
+      ],
+      "pytorch_result_shape": [
+        4096,
+        256
+      ],
+      "comparison": {
+        "max_abs_error": 1.2189149856567383e-05,
+        "max_rel_error": 6.091987597756088e-05,
+        "mean_abs_error": 7.414455716059365e-09,
+        "mean_rel_error": 5.001592171538505e-07,
+        "tolerance_used": 1e-05,
+        "close_within_tolerance": true
+      },
+      "providers": [
+        "CUDAExecutionProvider",
+        "CPUExecutionProvider"
+      ]
+    },
+    {
+      "shape": [
+        4096,
+        256,
+        256
+      ],
+      "has_bias": true,
+      "has_mask": true,
+      "onnx_result_shape": [
+        4096,
+        256
+      ],
+      "pytorch_result_shape": [
+        4096,
+        256
+      ],
+      "comparison": {
+        "max_abs_error": 1.1920928955078125e-05,
+        "max_rel_error": 6.378699617926031e-05,
+        "mean_abs_error": 7.487257924765345e-09,
+        "mean_rel_error": 5.024944016440713e-07,
+        "tolerance_used": 1e-05,
+        "close_within_tolerance": true
+      },
+      "providers": [
+        "CUDAExecutionProvider",
+        "CPUExecutionProvider"
+      ]
+    },
+    {
+      "shape": [
+        4096,
+        256,
+        256
+      ],
+      "has_bias": false,
+      "has_mask": false,
+      "onnx_result_shape": [
+        4096,
+        256
+      ],
+      "pytorch_result_shape": [
+        4096,
+        256
+      ],
+      "comparison": {
+        "max_abs_error": 1.239776611328125e-05,
+        "max_rel_error": 7.244045991683379e-05,
+        "mean_abs_error": 7.450122296859263e-09,
+        "mean_rel_error": 5.023724725106149e-07,
+        "tolerance_used": 1e-05,
+        "close_within_tolerance": true
+      },
+      "providers": [
+        "CUDAExecutionProvider",
+        "CPUExecutionProvider"
+      ]
+    },
+    {
+      "shape": [
+        32,
+        2048,
+        1024
+      ],
+      "has_bias": true,
+      "has_mask": false,
+      "onnx_result_shape": [
+        32,
+        2048
+      ],
+      "pytorch_result_shape": [
+        32,
+        2048
+      ],
+      "comparison": {
+        "max_abs_error": 1.341104507446289e-05,
+        "max_rel_error": 9.901681187329814e-05,
+        "mean_abs_error": 1.758130974138794e-09,
+        "mean_rel_error": 8.364381187675463e-08,
+        "tolerance_used": 1e-05,
+        "close_within_tolerance": true
+      },
+      "providers": [
+        "CUDAExecutionProvider",
+        "CPUExecutionProvider"
+      ]
+    },
+    {
+      "shape": [
+        32,
+        2048,
+        1024
+      ],
+      "has_bias": true,
+      "has_mask": true,
+      "onnx_result_shape": [
+        32,
+        2048
+      ],
+      "pytorch_result_shape": [
+        32,
+        2048
+      ],
+      "comparison": {
+        "max_abs_error": 4.172325134277344e-06,
+        "max_rel_error": 5.877004150534049e-05,
+        "mean_abs_error": 3.86497084337023e-10,
+        "mean_rel_error": 9.60666746152583e-09,
+        "tolerance_used": 1e-05,
+        "close_within_tolerance": true
+      },
+      "providers": [
+        "CUDAExecutionProvider",
+        "CPUExecutionProvider"
+      ]
+    },
+    {
+      "shape": [
+        32,
+        2048,
+        1024
+      ],
+      "has_bias": false,
+      "has_mask": false,
+      "onnx_result_shape": [
+        32,
+        2048
+      ],
+      "pytorch_result_shape": [
+        32,
+        2048
+      ],
+      "comparison": {
+        "max_abs_error": 1.7523765563964844e-05,
+        "max_rel_error": 8.365567919099703e-05,
+        "mean_abs_error": 1.7436014854155246e-09,
+        "mean_rel_error": 6.853191081290788e-08,
+        "tolerance_used": 1e-05,
+        "close_within_tolerance": false
+      },
+      "providers": [
+        "CUDAExecutionProvider",
+        "CPUExecutionProvider"
+      ]
+    },
+    {
+      "shape": [
+        64,
+        1024,
+        512
+      ],
+      "has_bias": true,
+      "has_mask": false,
+      "onnx_result_shape": [
+        64,
+        1024
+      ],
+      "pytorch_result_shape": [
+        64,
+        1024
+      ],
+      "comparison": {
+        "max_abs_error": 1.4781951904296875e-05,
+        "max_rel_error": 0.00010675489465938881,
+        "mean_abs_error": 4.131315289868098e-09,
+        "mean_rel_error": 2.3251826064552006e-07,
+        "tolerance_used": 1e-05,
+        "close_within_tolerance": false
+      },
+      "providers": [
+        "CUDAExecutionProvider",
+        "CPUExecutionProvider"
+      ]
+    },
+    {
+      "shape": [
+        64,
+        1024,
+        512
+      ],
+      "has_bias": true,
+      "has_mask": true,
+      "onnx_result_shape": [
+        64,
+        1024
+      ],
+      "pytorch_result_shape": [
+        64,
+        1024
+      ],
+      "comparison": {
+        "max_abs_error": 1.4275312423706055e-05,
+        "max_rel_error": 6.862593727419153e-05,
+        "mean_abs_error": 1.8674000124008217e-09,
+        "mean_rel_error": 4.9971255577929696e-08,
+        "tolerance_used": 1e-05,
+        "close_within_tolerance": false
+      },
+      "providers": [
+        "CUDAExecutionProvider",
+        "CPUExecutionProvider"
+      ]
+    },
+    {
+      "shape": [
+        64,
+        1024,
+        512
+      ],
+      "has_bias": false,
+      "has_mask": false,
+      "onnx_result_shape": [
+        64,
+        1024
+      ],
+      "pytorch_result_shape": [
+        64,
+        1024
+      ],
+      "comparison": {
+        "max_abs_error": 1.1295080184936523e-05,
+        "max_rel_error": 0.00012956476712133735,
+        "mean_abs_error": 2.773064444738793e-09,
+        "mean_rel_error": 1.7780800476430159e-07,
+        "tolerance_used": 1e-05,
+        "close_within_tolerance": true
+      },
+      "providers": [
+        "CUDAExecutionProvider",
+        "CPUExecutionProvider"
+      ]
+    }
+  ]
+}

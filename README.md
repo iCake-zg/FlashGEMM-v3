@@ -3,7 +3,7 @@ Implement a **general FP16/BF16 GEMM + Softmax fusion operator** on **NVIDIA GPU
 
 
 
-## 2 详细计划（含每日 checklist）
+## 2 PLAN 🧠
 
 ### Week 1 需求拆解 & 算子分析
 
@@ -11,18 +11,18 @@ Implement a **general FP16/BF16 GEMM + Softmax fusion operator** on **NVIDIA GPU
     用 PyTorch 导出 ONNX → Netron 打开 → 统计 MatMul+Softmax 维度分布。
 
     - day1 
-    src/getmodel.py  
-    生成 models/bert_large.onnx 
-    生成 models/whisper_encoder.onnx  
-    模型文件
+        - src/getmodel.py  
+        - 生成 models/bert_large.onnx 
+        - 生成 models/whisper_encoder.onnx  
+        - 模型文件
 
     
 - **Day2** 定义算子接口：`fused_gemm_softmax(M,N,K, A,B, bias, mask)`，支持 FP16/BF16、mask 可选。
 
     - day2
-    手写自定义gemm以及softmax函数
-    flash_gemm_softmax.py
-    tests/flash_gemm_softmax_test.py
+        - 手写自定义gemm以及softmax函数
+        - flash_gemm_softmax.py
+        - tests/flash_gemm_softmax_test.py
     
 
     
